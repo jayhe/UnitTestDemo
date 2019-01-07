@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self setupUI];
 }
 
+#pragma mark - Actions
+
+- (void)testPush:(UIButton *)sender {
+    TestViewController *testVC = [[TestViewController alloc] init];
+    [self.navigationController pushViewController:testVC animated:YES];
+}
+
+#pragma mark - Private Methods
+
+- (void)setupUI {
+    self.view.backgroundColor = [UIColor whiteColor];
+
+    UIButton *tmpButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [tmpButton setTitle:@"Push TestVC" forState:UIControlStateNormal];
+    [tmpButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    tmpButton.bounds = CGRectMake(0, 0, 200, 44);
+    tmpButton.center = self.view.center;
+    [tmpButton addTarget:self action:@selector(testPush:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:tmpButton];
+}
 
 @end

@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (void)testPush:(UIButton *)sender;
 
 @end
 

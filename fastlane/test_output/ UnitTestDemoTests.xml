@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='UnitTestDemoTests.xctest' tests='11' failures='0'>
+  <testsuite name='OrderUtilitySpec' tests='8' failures='0'>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_ConvertToFormatedStringFromPayAmount_PayAmountIsNil__thenFormatedAmountStringShouldBe' time='0.032'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_ConvertToFormatedStringFromPayAmount_PayAmountIs201_thenFormatedAmountStringShouldBe201' time='0.001'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_ConvertToFormatedStringFromPayAmount_PayAmountIs210_thenFormatedAmountStringShouldBe21' time='0.001'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_ConvertToFormatedStringFromPayAmount_PayAmountIs200_thenFormatedAmountStringShouldBe2' time='0.001'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_CalculatePayAmountWithPrice_PriceIs25AndCouponIs5_thenRepayAmountShouldBe20' time='0.001'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_CalculatePayAmountWithPrice_PriceIs35_thenRepayAmountShouldBe20' time='0.001'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_FetchConfigInfoCompletedBlock_ConfigsShouldNotBeNil' time='5.044'/>
+    <testcase classname='OrderUtilitySpec' name='OrderUtility_FetchConfigInfoCompletedBlock_ConfigsDueDateShouldNotBeNil' time='0.001'/>
+  </testsuite>
+  <testsuite name='UnitTestDemoTests' tests='2' failures='0'>
+    <testcase classname='UnitTestDemoTests' name='testExample' time='0.000'/>
+    <testcase classname='UnitTestDemoTests' name='testPerformanceExample' time='0.637'/>
+  </testsuite>
+  <testsuite name='ViewControllerSpec' tests='1' failures='0'>
+    <testcase classname='ViewControllerSpec' name='ViewController_TestPush_ShouldPushToTestVC' time='0.001'/>
+  </testsuite>
+</testsuites>
