@@ -30,7 +30,7 @@ platform :ios do
   desc "run OCLint and output report"
   lane :UnitTestDemoLint do
     # add actions here: https://docs.fastlane.tools/actions
-    #sh "cd .. && chmod 777 oclint.sh && ./oclint.sh"
-    sh "cd .. && chmod 777 Infer_PMD.sh && ./Infer_PMD.sh UnitTestDemo UnitTestDemo 2"
+    sh "cd .. && chmod 777 oclint.sh && ./oclint.sh"
+    #sh "cd .. && chmod 777 Infer_PMD.sh && ./Infer_PMD.sh UnitTestDemo UnitTestDemo 2"
    end
 end
