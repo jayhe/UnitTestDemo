@@ -1,0 +1,8 @@
+<pmd version="5.4.1" date="2019-03-08T16:11:11.133517">
+  <file name="UnitTestDemo/TestViewController.m">
+    <violation begincolumn="0" beginline="21" endcolumn="0" endline="22" class="" method="TestViewController_viewDidLoad" package="" priority="1" rule="DEAD_STORE" ruleset="Infer Rules" externalinfourl="http://fbinfer.com/docs/infer-issue-types.html#DEAD_STORE">The value written to &amp;test (type NSString*) is never used.</violation>
+  </file>
+  <file name="UnitTestDemo/ViewController.m">
+    <violation begincolumn="0" beginline="22" endcolumn="0" endline="23" class="" method="ViewController_viewDidLoad" package="" priority="1" rule="DEAD_STORE" ruleset="Infer Rules" externalinfourl="http://fbinfer.com/docs/infer-issue-types.html#DEAD_STORE">The value written to &amp;test (type NSString*) is never used.</violation>
+  </file>
+</pmd>

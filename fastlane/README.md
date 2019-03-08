@@ -21,6 +21,11 @@ or alternatively using `brew cask install fastlane`
 fastlane ios UnitTestDemoTests
 ```
 run UnitTestDemoTests and output report
+### ios UnitTestDemoLint
+```
+fastlane ios UnitTestDemoLint
+```
+run OCLint and output report
 
 ----
 

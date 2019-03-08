@@ -588,6 +588,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = L2ZY2L7GYS;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,6 +615,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = L2ZY2L7GYS;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

@@ -26,4 +26,10 @@ platform :ios do
               output_types: "html,junit",
               output_files: "UnitTestDemoTests.html, UnitTestDemoTests.xml")
    end
+
+  desc "run OCLint and output report"
+  lane :UnitTestDemoLint do
+    # add actions here: https://docs.fastlane.tools/actions
+    sh "cd .. && chmod 777 oclint.sh && ./oclint.sh"
+   end
 end
