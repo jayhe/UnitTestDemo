@@ -12,9 +12,21 @@ oclint-json-compilation-database -e Pods -- \
 -report-type pmd -o oclint_result.xml \
 -rc LONG_LINE=400 \
 -rc LONG_METHOD=200 \
+-rc LONG_VARIABLE_NAME=40 \
 -max-priority-1=100000 \
 -max-priority-2=100000 \
--max-priority-3=100000; \
+-max-priority-3=100000 \
+-disable-rule=BrokenOddnessCheck \
+-disable-rule=VerifyProhibitedCall \
+-disable-rule=VerifyProtectedMethod \
+-disable-rule=SubclassMustImplement \
+-disable-rule=BaseClassDestructorShouldBeVirtualOrProtected \
+-disable-rule=DestructorOfVirtualClass \
+-disable-rule=ParameterReassignment \
+-disable-rule=AvoidDefaultArgumentsOnVirtualMethods \
+-disable-rule=AvoidPrivateStaticMembers \
+-disable-rule=TooManyParameters \
+-list-enabled-rules=true; \
 rm compile_commands.json;
 if [ -f ./oclint_result.xml ]; 
 then echo 'done'
