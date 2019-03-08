@@ -287,3 +287,1188 @@ F
 .F
 .F
 [36345][   progress] .[36346][   progress] .[36347][   progress] .............
+[41827][      phase] ============================================================
+[41827][      phase] = New infer execution begins
+[41827][      phase] ============================================================
+[41827][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41827][environment] No .inferconfig file found
+[41827][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41827][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41827][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41827][environment]     --reactive --keep-going --no-xcpretty
+[41827][environment]   
+[41827][environment] command line arguments:   infer --reactive --keep-going --no-xcpretty --
+[41827][environment]                           xcodebuild -workspace UnitTestDemo.xcworkspace
+[41827][environment]                           -configuration Debug -scheme UnitTestDemo -arch
+[41827][environment]                           armv7 ONLY_ACTIVE_ARCH=YES VALID_ARCHS=armv7Analyzer: checkers
+[41827][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41827][environment] Infer log identifier is 
+Infer version v0.15.0
+[41827][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[41827][environment] 
+[41827][   progress] Capturing in xcodebuild mode...
+
+[41850][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo/Pods
+[41850][environment] No .inferconfig file found
+[41850][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41850][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.301fbe
+[41850][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.301fbe':
+[41850][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41850][environment]     --fcp-apple-clang
+[41850][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41850][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41850][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41850][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41850][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41850][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41850][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41850][environment]     -fmodules-validate-once-per-build-session
+[41850][environment]     -Wnon-modular-include-in-framework-module
+[41850][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41850][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41850][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41850][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41850][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41850][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41850][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41850][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41850][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41850][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41850][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41850][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41850][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41850][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41850][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41850][environment]     -Wundeclared-selector -Wdeprecated-implementations
+[41850][environment]     -DPOD_CONFIGURATION_DEBUG=1 -DDEBUG=1 -DCOCOAPODS=1
+[41850][environment]     -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41850][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41850][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41850][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41850][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41850][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41850][environment]     -fembed-bitcode-marker -iquote
+[41850][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-generated-files.hmap
+[41850][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-own-target-headers.hmap
+[41850][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-all-target-headers.hmap
+[41850][environment]     -iquote
+[41850][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-project-headers.hmap
+[41850][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41850][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41850][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41850][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/DerivedSources/armv7
+[41850][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/DerivedSources
+[41850][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41850][environment]     -MMD -MT dependencies -MF
+[41850][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Objects-normal/armv7/Pods-UnitTestDemo-dummy.d
+[41850][environment]     --serialize-diagnostics
+[41850][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Objects-normal/armv7/Pods-UnitTestDemo-dummy.dia
+[41850][environment]     -c
+[41850][environment]     /Users/hechao/Documents/Demos/UnitTestDemo/Pods/Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo-dummy.m
+[41850][environment]     -o
+[41850][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Objects-normal/armv7/Pods-UnitTestDemo-dummy.o
+[41850][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41850][environment]       --reactive --keep-going --no-xcpretty
+[41850][environment]     
+[41850][environment]   
+[41850][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41850][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41850][environment]                           -fdiagnostics-show-note-include-stack
+[41850][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41850][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41850][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41850][environment]                           -fmodules-prune-interval=86400
+[41850][environment]                           -fmodules-prune-after=345600
+[41850][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41850][environment]                           -fmodules-validate-once-per-build-session
+[41850][environment]                           -Wnon-modular-include-in-framework-module
+[41850][environment]                           -Werror=non-modular-include-in-framework-module
+[41850][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41850][environment]                           -Wno-missing-field-initializers
+[41850][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41850][environment]                           -Wdocumentation -Wunreachable-code
+[41850][environment]                           -Wno-implicit-atomic-properties
+[41850][environment]                           -Werror=deprecated-objc-isa-usage
+[41850][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41850][environment]                           -Wno-arc-repeated-use-of-weak
+[41850][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41850][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41850][environment]                           -Wunused-function -Wno-unused-label
+[41850][environment]                           -Wno-unused-parameter -Wunused-variable
+[41850][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41850][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41850][environment]                           -Wno-shadow -Wno-four-char-constants
+[41850][environment]                           -Wno-conversion -Wconstant-conversion
+[41850][environment]                           -Wint-conversion -Wbool-conversion
+[41850][environment]                           -Wenum-conversion -Wno-float-conversion
+[41850][environment]                           -Wnon-literal-null-conversion
+[41850][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41850][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41850][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41850][environment]                           -Wdeprecated-implementations
+[41850][environment]                           -DPOD_CONFIGURATION_DEBUG=1 -DDEBUG=1 -DCOCOAPODS=1
+[41850][environment]                           -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41850][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41850][environment]                           -fstrict-aliasing -Wprotocol
+[41850][environment]                           -Wdeprecated-declarations
+[41850][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41850][environment]                           -Winfinite-recursion -Wcomma
+[41850][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41850][environment]                           -Wno-semicolon-before-method-body
+[41850][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41850][environment]                           -iquote
+[41850][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-generated-files.hmap
+[41850][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-own-target-headers.hmap
+[41850][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-all-target-headers.hmap
+[41850][environment]                           -iquote
+[41850][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Pods-UnitTestDemo-project-headers.hmap
+[41850][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41850][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41850][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41850][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/DerivedSources/armv7
+[41850][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/DerivedSources
+[41850][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41850][environment]                           -MMD -MT dependencies -MF
+[41850][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Objects-normal/armv7/Pods-UnitTestDemo-dummy.d
+[41850][environment]                           --serialize-diagnostics
+[41850][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Objects-normal/armv7/Pods-UnitTestDemo-dummy.dia
+[41850][environment]                           -c
+[41850][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/Pods/Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo-dummy.m
+[41850][environment]                           -o
+[41850][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-UnitTestDemo.build/Objects-normal/armv7/Pods-UnitTestDemo-dummy.oAnalyzer: checkers
+[41850][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41850][      debug] 
+[41850][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/Pods/Target Support Files/Pods-UnitTestDemo/Pods-UnitTestDemo-dummy.m ***
+[41850][      debug] Clang frontend action is translating and linting
+[41850][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41850][      debug] Elapsed: 1.259s.
+[41850][      debug] 
+[41850][environment] Infer log identifier is 
+
+[41864][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41864][environment] No .inferconfig file found
+[41864][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41864][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.bd63a4
+[41864][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.bd63a4':
+[41864][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41864][environment]     --fcp-apple-clang
+[41864][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41864][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41864][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41864][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41864][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41864][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41864][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41864][environment]     -fmodules-validate-once-per-build-session
+[41864][environment]     -Wnon-modular-include-in-framework-module
+[41864][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41864][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41864][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41864][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41864][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41864][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41864][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41864][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41864][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41864][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41864][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41864][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41864][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41864][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41864][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41864][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41864][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41864][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41864][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41864][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41864][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41864][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41864][environment]     -fembed-bitcode-marker -index-store-path
+[41864][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41864][environment]     -iquote
+[41864][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41864][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41864][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41864][environment]     -iquote
+[41864][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41864][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41864][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41864][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41864][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41864][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41864][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41864][environment]     -MMD -MT dependencies -MF
+[41864][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/ViewController.d
+[41864][environment]     --serialize-diagnostics
+[41864][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/ViewController.dia
+[41864][environment]     -c
+[41864][environment]     /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/ViewController.m
+[41864][environment]     -o
+[41864][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/ViewController.o
+[41864][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41864][environment]       --reactive --keep-going --no-xcpretty
+[41864][environment]     
+[41864][environment]   
+[41864][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41864][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41864][environment]                           -fdiagnostics-show-note-include-stack
+[41864][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41864][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41864][environment]                           -gmodules
+[41864][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41864][environment]                           -fmodules-prune-interval=86400
+[41864][environment]                           -fmodules-prune-after=345600
+[41864][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41864][environment]                           -fmodules-validate-once-per-build-session
+[41864][environment]                           -Wnon-modular-include-in-framework-module
+[41864][environment]                           -Werror=non-modular-include-in-framework-module
+[41864][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41864][environment]                           -Wno-missing-field-initializers
+[41864][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41864][environment]                           -Wdocumentation -Wunreachable-code
+[41864][environment]                           -Wno-implicit-atomic-properties
+[41864][environment]                           -Werror=deprecated-objc-isa-usage
+[41864][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41864][environment]                           -Wno-arc-repeated-use-of-weak
+[41864][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41864][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41864][environment]                           -Wunused-function -Wno-unused-label
+[41864][environment]                           -Wno-unused-parameter -Wunused-variable
+[41864][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41864][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41864][environment]                           -Wno-shadow -Wno-four-char-constants
+[41864][environment]                           -Wno-conversion -Wconstant-conversion
+[41864][environment]                           -Wint-conversion -Wbool-conversion
+[41864][environment]                           -Wenum-conversion -Wno-float-conversion
+[41864][environment]                           -Wnon-literal-null-conversion
+[41864][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41864][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41864][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41864][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41864][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41864][environment]                           -isysroot
+[41864][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41864][environment]                           -fstrict-aliasing -Wprotocol
+[41864][environment]                           -Wdeprecated-declarations
+[41864][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41864][environment]                           -Winfinite-recursion -Wcomma
+[41864][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41864][environment]                           -Wno-semicolon-before-method-body
+[41864][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41864][environment]                           -index-store-path
+[41864][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41864][environment]                           -iquote
+[41864][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41864][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41864][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41864][environment]                           -iquote
+[41864][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41864][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41864][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41864][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41864][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41864][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41864][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41864][environment]                           -MMD -MT dependencies -MF
+[41864][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/ViewController.d
+[41864][environment]                           --serialize-diagnostics
+[41864][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/ViewController.dia
+[41864][environment]                           -c
+[41864][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/ViewController.m
+[41864][environment]                           -o
+[41864][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/ViewController.oAnalyzer: checkers
+[41864][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+
+[41863][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41863][environment] No .inferconfig file found
+[41863][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41863][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.8e78c1
+[41863][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.8e78c1':
+[41863][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41863][environment]     --fcp-apple-clang
+[41863][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41863][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41863][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41863][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41863][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41863][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41863][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41863][environment]     -fmodules-validate-once-per-build-session
+[41863][environment]     -Wnon-modular-include-in-framework-module
+[41863][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41863][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41863][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41863][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41863][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41863][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41863][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41863][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41863][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41863][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41863][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41863][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41863][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41863][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41863][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41863][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41863][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41863][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41863][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41863][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41863][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41863][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41863][environment]     -fembed-bitcode-marker -index-store-path
+[41863][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41863][environment]     -iquote
+[41863][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41863][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41863][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41863][environment]     -iquote
+[41863][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41863][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41863][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41863][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41863][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41863][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41863][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41863][environment]     -MMD -MT dependencies -MF
+[41863][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/main.d
+[41863][environment]     --serialize-diagnostics
+[41863][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/main.dia
+[41863][environment]     -c /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/main.m -o
+[41863][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/main.o
+[41863][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41863][environment]       --reactive --keep-going --no-xcpretty
+[41863][environment]     
+[41863][environment]   
+[41863][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41863][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41863][environment]                           -fdiagnostics-show-note-include-stack
+[41863][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41863][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41863][environment]                           -gmodules
+[41863][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41863][environment]                           -fmodules-prune-interval=86400
+[41863][environment]                           -fmodules-prune-after=345600
+[41863][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41863][environment]                           -fmodules-validate-once-per-build-session
+[41863][environment]                           -Wnon-modular-include-in-framework-module
+[41863][environment]                           -Werror=non-modular-include-in-framework-module
+[41863][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41863][environment]                           -Wno-missing-field-initializers
+[41863][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41863][environment]                           -Wdocumentation -Wunreachable-code
+[41863][environment]                           -Wno-implicit-atomic-properties
+[41863][environment]                           -Werror=deprecated-objc-isa-usage
+[41863][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41863][environment]                           -Wno-arc-repeated-use-of-weak
+[41863][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41863][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41863][environment]                           -Wunused-function -Wno-unused-label
+[41863][environment]                           -Wno-unused-parameter -Wunused-variable
+[41863][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41863][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41863][environment]                           -Wno-shadow -Wno-four-char-constants
+[41863][environment]                           -Wno-conversion -Wconstant-conversion
+[41863][environment]                           -Wint-conversion -Wbool-conversion
+[41863][environment]                           -Wenum-conversion -Wno-float-conversion
+[41863][environment]                           -Wnon-literal-null-conversion
+[41863][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41863][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41863][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41863][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41863][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41863][environment]                           -isysroot
+[41863][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41863][environment]                           -fstrict-aliasing -Wprotocol
+[41863][environment]                           -Wdeprecated-declarations
+[41863][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41863][environment]                           -Winfinite-recursion -Wcomma
+[41863][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41863][environment]                           -Wno-semicolon-before-method-body
+[41863][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41863][environment]                           -index-store-path
+[41863][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41863][environment]                           -iquote
+[41863][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41863][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41863][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41863][environment]                           -iquote
+[41863][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41863][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41863][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41863][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41863][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41863][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41863][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41863][environment]                           -MMD -MT dependencies -MF
+[41863][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/main.d
+[41863][environment]                           --serialize-diagnostics
+[41863][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/main.dia
+[41863][environment]                           -c
+[41863][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/main.m
+[41863][environment]                           -o
+[41863][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/main.oAnalyzer: checkers
+[41863][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+
+[41866][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41866][environment] No .inferconfig file found
+[41866][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41866][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.326b45
+[41866][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.326b45':
+[41866][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41866][environment]     --fcp-apple-clang
+[41866][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41866][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41866][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41866][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41866][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41866][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41866][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41866][environment]     -fmodules-validate-once-per-build-session
+[41866][environment]     -Wnon-modular-include-in-framework-module
+[41866][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41866][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41866][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41866][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41866][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41866][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41866][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41866][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41866][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41866][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41866][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41866][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41866][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41866][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41866][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41866][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41866][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41866][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41866][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41866][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41866][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41866][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41866][environment]     -fembed-bitcode-marker -index-store-path
+[41866][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41866][environment]     -iquote
+[41866][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41866][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41866][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41866][environment]     -iquote
+[41866][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41866][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41866][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41866][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41866][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41866][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41866][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41866][environment]     -MMD -MT dependencies -MF
+[41866][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestOneViewController.d
+[41866][environment]     --serialize-diagnostics
+[41866][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestOneViewController.dia
+[41866][environment]     -c
+[41866][environment]     /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/TestOneViewController.m
+[41866][environment]     -o
+[41866][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestOneViewController.o
+[41866][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41866][environment]       --reactive --keep-going --no-xcpretty
+[41866][environment]     
+[41866][environment]   
+[41866][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41866][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41866][environment]                           -fdiagnostics-show-note-include-stack
+[41866][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41866][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41866][environment]                           -gmodules
+[41866][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41866][environment]                           -fmodules-prune-interval=86400
+[41866][environment]                           -fmodules-prune-after=345600
+[41866][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41866][environment]                           -fmodules-validate-once-per-build-session
+[41866][environment]                           -Wnon-modular-include-in-framework-module
+[41866][environment]                           -Werror=non-modular-include-in-framework-module
+[41866][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41866][environment]                           -Wno-missing-field-initializers
+[41866][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41866][environment]                           -Wdocumentation -Wunreachable-code
+[41866][environment]                           -Wno-implicit-atomic-properties
+[41866][environment]                           -Werror=deprecated-objc-isa-usage
+[41866][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41866][environment]                           -Wno-arc-repeated-use-of-weak
+[41866][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41866][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41866][environment]                           -Wunused-function -Wno-unused-label
+[41866][environment]                           -Wno-unused-parameter -Wunused-variable
+[41866][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41866][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41866][environment]                           -Wno-shadow -Wno-four-char-constants
+[41866][environment]                           -Wno-conversion -Wconstant-conversion
+[41866][environment]                           -Wint-conversion -Wbool-conversion
+[41866][environment]                           -Wenum-conversion -Wno-float-conversion
+[41866][environment]                           -Wnon-literal-null-conversion
+[41866][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41866][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41866][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41866][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41866][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41866][environment]                           -isysroot
+[41866][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41866][environment]                           -fstrict-aliasing -Wprotocol
+[41866][environment]                           -Wdeprecated-declarations
+[41866][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41866][environment]                           -Winfinite-recursion -Wcomma
+[41866][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41866][environment]                           -Wno-semicolon-before-method-body
+[41866][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41866][environment]                           -index-store-path
+[41866][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41866][environment]                           -iquote
+[41866][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41866][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41866][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41866][environment]                           -iquote
+[41866][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41866][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41866][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41866][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41866][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41866][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41866][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41866][environment]                           -MMD -MT dependencies -MF
+[41866][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestOneViewController.d
+[41866][environment]                           --serialize-diagnostics
+[41866][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestOneViewController.dia
+[41866][environment]                           -c
+[41866][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/TestOneViewController.m
+[41866][environment]                           -o
+[41866][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestOneViewController.oAnalyzer: checkers
+[41866][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+
+[41865][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41865][environment] No .inferconfig file found
+[41865][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41865][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.684467
+[41865][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.684467':
+[41865][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41865][environment]     --fcp-apple-clang
+[41865][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41865][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41865][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41865][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41865][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41865][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41865][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41865][environment]     -fmodules-validate-once-per-build-session
+[41865][environment]     -Wnon-modular-include-in-framework-module
+[41865][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41865][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41865][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41865][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41865][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41865][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41865][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41865][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41865][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41865][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41865][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41865][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41865][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41865][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41865][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41865][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41865][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41865][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41865][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41865][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41865][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41865][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41865][environment]     -fembed-bitcode-marker -index-store-path
+[41865][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41865][environment]     -iquote
+[41865][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41865][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41865][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41865][environment]     -iquote
+[41865][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41865][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41865][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41865][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41865][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41865][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41865][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41865][environment]     -MMD -MT dependencies -MF
+[41865][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestViewController.d
+[41865][environment]     --serialize-diagnostics
+[41865][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestViewController.dia
+[41865][environment]     -c
+[41865][environment]     /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/TestViewController.m
+[41865][environment]     -o
+[41865][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestViewController.o
+[41865][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41865][environment]       --reactive --keep-going --no-xcpretty
+[41865][environment]     
+[41865][environment]   
+[41865][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41865][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41865][environment]                           -fdiagnostics-show-note-include-stack
+[41865][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41865][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41865][environment]                           -gmodules
+[41865][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41865][environment]                           -fmodules-prune-interval=86400
+[41865][environment]                           -fmodules-prune-after=345600
+[41865][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41865][environment]                           -fmodules-validate-once-per-build-session
+[41865][environment]                           -Wnon-modular-include-in-framework-module
+[41865][environment]                           -Werror=non-modular-include-in-framework-module
+[41865][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41865][environment]                           -Wno-missing-field-initializers
+[41865][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41865][environment]                           -Wdocumentation -Wunreachable-code
+[41865][environment]                           -Wno-implicit-atomic-properties
+[41865][environment]                           -Werror=deprecated-objc-isa-usage
+[41865][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41865][environment]                           -Wno-arc-repeated-use-of-weak
+[41865][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41865][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41865][environment]                           -Wunused-function -Wno-unused-label
+[41865][environment]                           -Wno-unused-parameter -Wunused-variable
+[41865][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41865][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41865][environment]                           -Wno-shadow -Wno-four-char-constants
+[41865][environment]                           -Wno-conversion -Wconstant-conversion
+[41865][environment]                           -Wint-conversion -Wbool-conversion
+[41865][environment]                           -Wenum-conversion -Wno-float-conversion
+[41865][environment]                           -Wnon-literal-null-conversion
+[41865][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41865][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41865][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41865][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41865][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41865][environment]                           -isysroot
+[41865][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41865][environment]                           -fstrict-aliasing -Wprotocol
+[41865][environment]                           -Wdeprecated-declarations
+[41865][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41865][environment]                           -Winfinite-recursion -Wcomma
+[41865][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41865][environment]                           -Wno-semicolon-before-method-body
+[41865][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41865][environment]                           -index-store-path
+[41865][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41865][environment]                           -iquote
+[41865][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41865][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41865][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41865][environment]                           -iquote
+[41865][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41865][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41865][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41865][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41865][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41865][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41865][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41865][environment]                           -MMD -MT dependencies -MF
+[41865][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestViewController.d
+[41865][environment]                           --serialize-diagnostics
+[41865][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestViewController.dia
+[41865][environment]                           -c
+[41865][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/TestViewController.m
+[41865][environment]                           -o
+[41865][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/TestViewController.oAnalyzer: checkers
+[41865][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41863][      debug] 
+[41863][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/main.m ***
+[41863][      debug] Clang frontend action is translating and linting
+[41863][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41863][      debug] Elapsed: 3.582s.
+[41863][      debug] 
+[41863][environment] Infer log identifier is 
+[41866][      debug] 
+[41866][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/TestOneViewController.m ***
+[41866][      debug] Clang frontend action is translating and linting
+[41866][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41866][      debug] Elapsed: 3.64s.
+[41866][      debug] 
+[41866][environment] Infer log identifier is 
+[41864][      debug] 
+[41864][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/ViewController.m ***
+[41864][      debug] Clang frontend action is translating and linting
+[41864][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41864][      debug] Elapsed: 3.638s.
+[41864][      debug] 
+[41864][environment] Infer log identifier is 
+[41865][      debug] 
+[41865][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/TestViewController.m ***
+[41865][      debug] Clang frontend action is translating and linting
+[41865][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41865][      debug] Elapsed: 3.721s.
+[41865][      debug] 
+[41865][environment] Infer log identifier is 
+
+
+
+[41929][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41929][environment] No .inferconfig file found
+[41929][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41929][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.0f39d9
+[41929][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.0f39d9':
+[41929][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41929][environment]     --fcp-apple-clang
+[41929][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41929][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41929][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41929][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41929][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41929][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41929][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41929][environment]     -fmodules-validate-once-per-build-session
+[41929][environment]     -Wnon-modular-include-in-framework-module
+[41929][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41929][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41929][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41929][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41929][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41929][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41929][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41929][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41929][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41929][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41929][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41929][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41929][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41929][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41929][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41929][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41929][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41929][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41929][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41929][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41929][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41929][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41929][environment]     -fembed-bitcode-marker -index-store-path
+[41929][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41929][environment]     -iquote
+[41929][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41929][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41929][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41929][environment]     -iquote
+[41929][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41929][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41929][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41929][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41929][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41929][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41929][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41929][environment]     -MMD -MT dependencies -MF
+[41929][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/CouponUtility.d
+[41929][environment]     --serialize-diagnostics
+[41929][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/CouponUtility.dia
+[41929][environment]     -c
+[41929][environment]     /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/CouponUtility.m
+[41929][environment]     -o
+[41929][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/CouponUtility.o
+[41929][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41929][environment]       --reactive --keep-going --no-xcpretty
+[41929][environment]     
+[41929][environment]   
+[41929][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41929][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41929][environment]                           -fdiagnostics-show-note-include-stack
+[41929][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41929][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41929][environment]                           -gmodules
+[41929][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41929][environment]                           -fmodules-prune-interval=86400
+[41929][environment]                           -fmodules-prune-after=345600
+[41929][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41929][environment]                           -fmodules-validate-once-per-build-session
+[41929][environment]                           -Wnon-modular-include-in-framework-module
+[41929][environment]                           -Werror=non-modular-include-in-framework-module
+[41929][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41929][environment]                           -Wno-missing-field-initializers
+[41929][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41929][environment]                           -Wdocumentation -Wunreachable-code
+[41929][environment]                           -Wno-implicit-atomic-properties
+[41929][environment]                           -Werror=deprecated-objc-isa-usage
+[41929][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41929][environment]                           -Wno-arc-repeated-use-of-weak
+[41929][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41929][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41929][environment]                           -Wunused-function -Wno-unused-label
+[41929][environment]                           -Wno-unused-parameter -Wunused-variable
+[41929][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41929][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41929][environment]                           -Wno-shadow -Wno-four-char-constants
+[41929][environment]                           -Wno-conversion -Wconstant-conversion
+[41929][environment]                           -Wint-conversion -Wbool-conversion
+[41929][environment]                           -Wenum-conversion -Wno-float-conversion
+[41929][environment]                           -Wnon-literal-null-conversion
+[41929][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41929][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41929][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41929][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41929][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41929][environment]                           -isysroot
+[41929][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41929][environment]                           -fstrict-aliasing -Wprotocol
+[41929][environment]                           -Wdeprecated-declarations
+[41929][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41929][environment]                           -Winfinite-recursion -Wcomma
+[41929][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41929][environment]                           -Wno-semicolon-before-method-body
+[41929][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41929][environment]                           -index-store-path
+[41929][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41929][environment]                           -iquote
+[41929][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41929][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41929][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41929][environment]                           -iquote
+[41929][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41929][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41929][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41929][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41929][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41929][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41929][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41929][environment]                           -MMD -MT dependencies -MF
+[41929][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/CouponUtility.d
+[41929][environment]                           --serialize-diagnostics
+[41929][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/CouponUtility.dia
+[41929][environment]                           -c
+[41929][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/CouponUtility.m
+[41929][environment]                           -o
+[41929][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/CouponUtility.oAnalyzer: checkers
+[41929][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41930][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41930][environment] No .inferconfig file found
+[41930][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41930][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.83863a
+[41930][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.83863a':
+[41930][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41930][environment]     --fcp-apple-clang
+[41930][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41930][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41930][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41930][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41930][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41930][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41930][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41930][environment]     -fmodules-validate-once-per-build-session
+[41930][environment]     -Wnon-modular-include-in-framework-module
+[41930][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41930][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41930][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41930][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41930][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41930][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41930][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41930][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41930][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41930][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41930][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41930][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41930][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41930][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41930][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41930][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41930][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41930][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41930][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41930][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41930][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41930][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41930][environment]     -fembed-bitcode-marker -index-store-path
+[41930][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41930][environment]     -iquote
+[41930][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41930][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41930][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41930][environment]     -iquote
+[41930][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41930][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41930][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41930][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41930][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41930][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41930][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41930][environment]     -MMD -MT dependencies -MF
+[41930][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/AppDelegate.d
+[41930][environment]     --serialize-diagnostics
+[41930][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/AppDelegate.dia
+[41930][environment]     -c /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/AppDelegate.m
+[41930][environment]     -o
+[41930][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/AppDelegate.o
+[41930][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41930][environment]       --reactive --keep-going --no-xcpretty
+[41930][environment]     
+[41930][environment]   
+[41930][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41930][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41930][environment]                           -fdiagnostics-show-note-include-stack
+[41930][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41930][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41930][environment]                           -gmodules
+[41930][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41930][environment]                           -fmodules-prune-interval=86400
+[41930][environment]                           -fmodules-prune-after=345600
+[41930][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41930][environment]                           -fmodules-validate-once-per-build-session
+[41930][environment]                           -Wnon-modular-include-in-framework-module
+[41930][environment]                           -Werror=non-modular-include-in-framework-module
+[41930][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41930][environment]                           -Wno-missing-field-initializers
+[41930][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41930][environment]                           -Wdocumentation -Wunreachable-code
+[41930][environment]                           -Wno-implicit-atomic-properties
+[41930][environment]                           -Werror=deprecated-objc-isa-usage
+[41930][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41930][environment]                           -Wno-arc-repeated-use-of-weak
+[41930][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41930][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41930][environment]                           -Wunused-function -Wno-unused-label
+[41930][environment]                           -Wno-unused-parameter -Wunused-variable
+[41930][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41930][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41930][environment]                           -Wno-shadow -Wno-four-char-constants
+[41930][environment]                           -Wno-conversion -Wconstant-conversion
+[41930][environment]                           -Wint-conversion -Wbool-conversion
+[41930][environment]                           -Wenum-conversion -Wno-float-conversion
+[41930][environment]                           -Wnon-literal-null-conversion
+[41930][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41930][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41930][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41930][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41930][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41930][environment]                           -isysroot
+[41930][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41930][environment]                           -fstrict-aliasing -Wprotocol
+[41930][environment]                           -Wdeprecated-declarations
+[41930][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41930][environment]                           -Winfinite-recursion -Wcomma
+[41930][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41930][environment]                           -Wno-semicolon-before-method-body
+[41930][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41930][environment]                           -index-store-path
+[41930][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41930][environment]                           -iquote
+[41930][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41930][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41930][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41930][environment]                           -iquote
+[41930][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41930][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41930][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41930][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41930][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41930][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41930][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41930][environment]                           -MMD -MT dependencies -MF
+[41930][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/AppDelegate.d
+[41930][environment]                           --serialize-diagnostics
+[41930][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/AppDelegate.dia
+[41930][environment]                           -c
+[41930][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/AppDelegate.m
+[41930][environment]                           -o
+[41930][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/AppDelegate.oAnalyzer: checkers
+[41930][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41928][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41928][environment] No .inferconfig file found
+[41928][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41928][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.2d24c1
+[41928][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.2d24c1':
+[41928][environment]     @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e
+[41928][environment]     --fcp-apple-clang
+[41928][environment]     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+[41928][environment]     -x objective-c -arch armv7 -fmessage-length=149
+[41928][environment]     -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0
+[41928][environment]     -fcolor-diagnostics -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules
+[41928][environment]     -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41928][environment]     -fmodules-prune-interval=86400 -fmodules-prune-after=345600
+[41928][environment]     -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41928][environment]     -fmodules-validate-once-per-build-session
+[41928][environment]     -Wnon-modular-include-in-framework-module
+[41928][environment]     -Werror=non-modular-include-in-framework-module -Wno-trigraphs
+[41928][environment]     -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers
+[41928][environment]     -Wno-missing-prototypes -Werror=return-type -Wdocumentation
+[41928][environment]     -Wunreachable-code -Wno-implicit-atomic-properties
+[41928][environment]     -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars
+[41928][environment]     -Werror=objc-root-class -Wno-arc-repeated-use-of-weak
+[41928][environment]     -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces
+[41928][environment]     -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+[41928][environment]     -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body
+[41928][environment]     -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas
+[41928][environment]     -Wno-shadow -Wno-four-char-constants -Wno-conversion
+[41928][environment]     -Wconstant-conversion -Wint-conversion -Wbool-conversion
+[41928][environment]     -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion
+[41928][environment]     -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign
+[41928][environment]     -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+[41928][environment]     -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1
+[41928][environment]     -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot
+[41928][environment]     /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41928][environment]     -fstrict-aliasing -Wprotocol -Wdeprecated-declarations
+[41928][environment]     -miphoneos-version-min=8.0 -g -Wno-sign-conversion -Winfinite-recursion
+[41928][environment]     -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41928][environment]     -Wno-semicolon-before-method-body -Wunguarded-availability
+[41928][environment]     -fembed-bitcode-marker -index-store-path
+[41928][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41928][environment]     -iquote
+[41928][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41928][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41928][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41928][environment]     -iquote
+[41928][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41928][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41928][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41928][environment]     -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41928][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41928][environment]     -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41928][environment]     -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41928][environment]     -MMD -MT dependencies -MF
+[41928][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/OrderUtility.d
+[41928][environment]     --serialize-diagnostics
+[41928][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/OrderUtility.dia
+[41928][environment]     -c /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/OrderUtility.m
+[41928][environment]     -o
+[41928][environment]     /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/OrderUtility.o
+[41928][environment]     ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.b9081e':
+[41928][environment]       --reactive --keep-going --no-xcpretty
+[41928][environment]     
+[41928][environment]   
+[41928][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../lib/wrappers/clang
+[41928][environment]                           -x objective-c -arch armv7 -fmessage-length=149
+[41928][environment]                           -fdiagnostics-show-note-include-stack
+[41928][environment]                           -fmacro-backtrace-limit=0 -fcolor-diagnostics
+[41928][environment]                           -std=gnu11 -fobjc-arc -fobjc-weak -fmodules
+[41928][environment]                           -gmodules
+[41928][environment]                           -fmodules-cache-path=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[41928][environment]                           -fmodules-prune-interval=86400
+[41928][environment]                           -fmodules-prune-after=345600
+[41928][environment]                           -fbuild-session-file=/Users/hechao/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation
+[41928][environment]                           -fmodules-validate-once-per-build-session
+[41928][environment]                           -Wnon-modular-include-in-framework-module
+[41928][environment]                           -Werror=non-modular-include-in-framework-module
+[41928][environment]                           -Wno-trigraphs -fpascal-strings -O0 -fno-common
+[41928][environment]                           -Wno-missing-field-initializers
+[41928][environment]                           -Wno-missing-prototypes -Werror=return-type
+[41928][environment]                           -Wdocumentation -Wunreachable-code
+[41928][environment]                           -Wno-implicit-atomic-properties
+[41928][environment]                           -Werror=deprecated-objc-isa-usage
+[41928][environment]                           -Wno-objc-interface-ivars -Werror=objc-root-class
+[41928][environment]                           -Wno-arc-repeated-use-of-weak
+[41928][environment]                           -Wimplicit-retain-self -Wduplicate-method-match
+[41928][environment]                           -Wno-missing-braces -Wparentheses -Wswitch
+[41928][environment]                           -Wunused-function -Wno-unused-label
+[41928][environment]                           -Wno-unused-parameter -Wunused-variable
+[41928][environment]                           -Wunused-value -Wempty-body -Wuninitialized
+[41928][environment]                           -Wconditional-uninitialized -Wno-unknown-pragmas
+[41928][environment]                           -Wno-shadow -Wno-four-char-constants
+[41928][environment]                           -Wno-conversion -Wconstant-conversion
+[41928][environment]                           -Wint-conversion -Wbool-conversion
+[41928][environment]                           -Wenum-conversion -Wno-float-conversion
+[41928][environment]                           -Wnon-literal-null-conversion
+[41928][environment]                           -Wobjc-literal-conversion -Wshorten-64-to-32
+[41928][environment]                           -Wpointer-sign -Wno-newline-eof -Wno-selector
+[41928][environment]                           -Wno-strict-selector-match -Wundeclared-selector
+[41928][environment]                           -Wdeprecated-implementations -DDEBUG=1
+[41928][environment]                           -DCOCOAPODS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+[41928][environment]                           -isysroot
+[41928][environment]                           /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[41928][environment]                           -fstrict-aliasing -Wprotocol
+[41928][environment]                           -Wdeprecated-declarations
+[41928][environment]                           -miphoneos-version-min=8.0 -g -Wno-sign-conversion
+[41928][environment]                           -Winfinite-recursion -Wcomma
+[41928][environment]                           -Wblock-capture-autoreleasing -Wstrict-prototypes
+[41928][environment]                           -Wno-semicolon-before-method-body
+[41928][environment]                           -Wunguarded-availability -fembed-bitcode-marker
+[41928][environment]                           -index-store-path
+[41928][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Index/DataStore
+[41928][environment]                           -iquote
+[41928][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-generated-files.hmap
+[41928][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-own-target-headers.hmap
+[41928][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-all-target-headers.hmap
+[41928][environment]                           -iquote
+[41928][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/UnitTestDemo-project-headers.hmap
+[41928][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos/include
+[41928][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public
+[41928][environment]                           -I/Users/hechao/Documents/Demos/UnitTestDemo/Pods/Headers/Public/Kiwi
+[41928][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources/armv7
+[41928][environment]                           -I/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/DerivedSources
+[41928][environment]                           -F/Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Products/Debug-iphoneos
+[41928][environment]                           -MMD -MT dependencies -MF
+[41928][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/OrderUtility.d
+[41928][environment]                           --serialize-diagnostics
+[41928][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/OrderUtility.dia
+[41928][environment]                           -c
+[41928][environment]                           /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/OrderUtility.m
+[41928][environment]                           -o
+[41928][environment]                           /Users/hechao/Library/Developer/Xcode/DerivedData/UnitTestDemo-bdmljflhvfyxmvbnetjinszerwhf/Build/Intermediates.noindex/UnitTestDemo.build/Debug-iphoneos/UnitTestDemo.build/Objects-normal/armv7/OrderUtility.oAnalyzer: checkers
+[41928][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41929][      debug] 
+[41929][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/CouponUtility.m ***
+[41929][      debug] Clang frontend action is translating and linting
+[41929][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41929][      debug] Elapsed: 1.142s.
+[41929][      debug] 
+[41929][environment] Infer log identifier is 
+[41928][      debug] 
+[41928][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/OrderUtility.m ***
+[41928][      debug] Clang frontend action is translating and linting
+[41928][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41928][      debug] Elapsed: 1.171s.
+[41928][      debug] 
+[41928][environment] Infer log identifier is 
+[41930][      debug] 
+[41930][      debug] *** Beginning capture of file /Users/hechao/Documents/Demos/UnitTestDemo/UnitTestDemo/AppDelegate.m ***
+[41930][      debug] Clang frontend action is translating and linting
+[41930][      debug] Loading the following linters files: /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[41930][      debug] Elapsed: 1.9s.
+[41930][      debug] 
+[41930][environment] Infer log identifier is 
+[41827][   progress] Found 8 (out of 8) source files to analyze in /Users/hechao/Documents/Demos/UnitTestDemo/infer-out
+[41827][   progress] Starting analysis...
+[41827][   progress] 
+[41827][   progress] legend:
+[41827][   progress]   "F" analyzing a file
+[41827][   progress]   "." analyzing a procedure
+[41827][   progress] 
+[41827][   progress] 
+[41827][environment] Parallel jobs: 4
+[41827][   progress] FFF
+
+F
+
+F
+FF
+
+F
+
+[41982][      phase] ============================================================
+[41982][      phase] = New infer execution begins
+[41982][      phase] ============================================================
+[41982][environment] CWD = /Users/hechao/Documents/Demos/UnitTestDemo
+[41982][environment] No .inferconfig file found
+[41982][environment] Project root = /Users/hechao/Documents/Demos/UnitTestDemo
+[41982][environment] INFER_ARGS =   @/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.52de8a
+[41982][environment]   ++Contents of '/var/folders/8j/551wkz1d1rg878kt8mg21tg40000gn/T/args.tmp.52de8a':
+[41982][environment]     analyze --pmd-xml --reactive --changed-files-index
+[41982][environment]     /Users/hechao/Documents/Demos/UnitTestDemo/diffsIndex.txt
+[41982][environment]   
+[41982][environment] command line arguments:   infer analyze --pmd-xml --reactive
+[41982][environment]                           --changed-files-index diffsIndex.txtAnalyzer: checkers
+[41982][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[41982][environment] Infer log identifier is 
+Infer version v0.15.0
+[41982][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[41982][environment] 
+[41982][   progress] Found 0 (out of 8) source files to analyze in /Users/hechao/Documents/Demos/UnitTestDemo/infer-out
+[41982][   progress] Starting analysis...
+[41982][   progress] 
+[41982][   progress] legend:
+[41982][   progress]   "F" analyzing a file
+[41982][   progress]   "." analyzing a procedure
+[41982][   progress] 
+[41982][   progress] 
+[41982][environment] Parallel jobs: 4

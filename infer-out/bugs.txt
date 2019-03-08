@@ -1,4 +1,4 @@
-Found 2 issues
+Found 3 issues
 
 UnitTestDemo/TestViewController.m:21: error: DEAD_STORE
   The value written to &test (type NSString*) is never used.
@@ -13,9 +13,18 @@ UnitTestDemo/ViewController.m:22: error: DEAD_STORE
   20.       // Do any additional setup after loading the view, typically from a nib.
   21.       [self setupUI];
   22. >     NSString *test = @"test";
-  23.   }
-  24.   
+  23.       NSNumber *number;
+  24.       if (!number) {
+
+UnitTestDemo/ViewController.m:24: warning: BAD_POINTER_COMPARISON
+  Implicitly checking whether NSNumber pointer is nil or comparing to integral value at line 24, column 10. Did you mean to use/compare against the unboxed value instead? Please either explicitly compare the NSNumber instance to nil, or use one of the NSNumber accessors before the comparison.
+  22.       NSString *test = @"test";
+  23.       NSNumber *number;
+  24. >     if (!number) {
+  25.           NSLog(@"%@", number);
+  26.       }
 
 Summary of the reports
 
-  DEAD_STORE: 2
+              DEAD_STORE: 2
+  BAD_POINTER_COMPARISON: 1

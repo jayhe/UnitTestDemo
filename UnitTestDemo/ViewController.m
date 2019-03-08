@@ -20,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self setupUI];
     NSString *test = @"test";
+    NSNumber *number;
+    if (!number) {
+        NSLog(@"%@", number);
+    }
 }
 
 #pragma mark - Actions

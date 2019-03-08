@@ -1,8 +1,11 @@
-<pmd version="5.4.1" date="2019-03-08T16:11:11.133517">
+<pmd version="5.4.1" date="2019-03-08T17:07:36.988953">
   <file name="UnitTestDemo/TestViewController.m">
     <violation begincolumn="0" beginline="21" endcolumn="0" endline="22" class="" method="TestViewController_viewDidLoad" package="" priority="1" rule="DEAD_STORE" ruleset="Infer Rules" externalinfourl="http://fbinfer.com/docs/infer-issue-types.html#DEAD_STORE">The value written to &amp;test (type NSString*) is never used.</violation>
   </file>
   <file name="UnitTestDemo/ViewController.m">
     <violation begincolumn="0" beginline="22" endcolumn="0" endline="23" class="" method="ViewController_viewDidLoad" package="" priority="1" rule="DEAD_STORE" ruleset="Infer Rules" externalinfourl="http://fbinfer.com/docs/infer-issue-types.html#DEAD_STORE">The value written to &amp;test (type NSString*) is never used.</violation>
+  </file>
+  <file name="UnitTestDemo/ViewController.m">
+    <violation begincolumn="0" beginline="24" endcolumn="0" endline="25" class="" method="ViewController_viewDidLoad" package="" priority="1" rule="BAD_POINTER_COMPARISON" ruleset="Infer Rules" externalinfourl="http://fbinfer.com/docs/infer-issue-types.html#BAD_POINTER_COMPARISON">Implicitly checking whether NSNumber pointer is nil or comparing to integral value at line 24, column 10. Did you mean to use/compare against the unboxed value instead? Please either explicitly compare the NSNumber instance to nil, or use one of the NSNumber accessors before the comparison.</violation>
   </file>
 </pmd>
